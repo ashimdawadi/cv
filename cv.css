@@ -1,0 +1,87 @@
+body{
+  background-color: #ccffff;
+ 
+
+}
+
+
+
+.main{
+  background-image: linear-gradient(orange,yellow);
+}
+
+
+.main .nav-menu ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 10px;
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+ /* background-color: #f1f1f1;*/
+  vertical-align: top;
+margin-left: 600px;
+
+}
+
+.main .nav-menu ul li a {
+  display: block;
+  /*color: #000;*/
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+ /*Change the link color on hover */
+.main .nav-menu ul li a:hover {
+  transform:scale(1.5,1.5);
+  
+  color: : white;
+}
+.main .nav-menu ul li a:active{
+  background: yellow;
+  box-shadow: 0px 2px 10px;
+}
+.active:active{
+  box-shadow: 1px 3px 12px;
+}
+.first h1{
+  text-align: center;
+}
+.first .info{
+
+  background-repeat: no-repeat;
+  margin-left: 600px;
+  list-style-type: none;
+
+}
+.first .info .myimg{
+  
+  
+  border-radius: 100px;
+
+}
+.all li{
+  list-style-type: none;
+
+}
+.extra{
+  margin-left: 400px;
+}
+.languages{
+  margin-left: 800px;
+}
+.hobby{
+  margin-left: 1200px;
+}
+.hello{
+  display: flex;flex-direction: row;
+}
+.grp{
+  margin-left: 100px;
+  justify-content: space-around;
+}
+.second table{
+  background-image: url(images/5.jpg);
+  font-size: 1.5em;
+  color: white;
+}
